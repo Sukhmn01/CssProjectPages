@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sukhmanpreet Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- NAVIGATION BAR -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo">Sukhman</a> 
+      <ul class="nav-links">
+        <li><a href="#">Welcome</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#certifications">certifications</a></li>
+       <li><a href="#skills">Skills & Tech</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+<!-- HERO SECTION-->
+  <header class="hero hero-full-bg">
+    <div class="hero-grid">
+      <div class="hero-left">
+         <h1>Sukhmanpreet Kaur</h1>
+      </div>
+      <div class="hero-right">
+        <p> Developer & Tech Enthusiast | HTML • PHP • Arduino • MySQL</p>
+        <p>Driven by curiosity and creativity to build smart, user-friendly digital and hardware projects..</p>
+      </div>
+    </div>
+  </header>
+  <!-- ABOUT SECTION-->
+  <section class="about" id="about">
+    <div class="about-grid">
+      <div class="about-img">
+        <img src="images/image.jpg" alt="Sukhmanpreet Kaur" />
+      </div>
+      <div class="about-text">
+    <h2>About Me</h2>
+<p>
+    Hi! I'm <strong>Sukhmanpreet Kaur</strong>, a computer programming student passionate about web and backend development. I enjoy building functional, responsive websites and smart systems.
+</p>
+<p>
+    Skilled in <strong>HTML, CSS, JavaScript, PHP, and MySQL</strong>, I’ve worked on academic projects that combine creativity with code. I'm also familiar with <strong>GitHub</strong> and love turning ideas into real-world solutions.
+</p>
+<p>
+   I'm eager to grow as a developer and contribute to innovative, tech-driven teams.
+</p>
+</div>
+  </section>
+<!-- CERTIFICATION SECTION-->
+<section class="certifications-section" id="certifications">
+  <h2>My Certifications</h2>
+  <div class="certification-cards">
+    
+    <div class="cert-card">
+      <img src="certificates/certificate1.png" alt="Azure Certificate">
+      <div class="cert-info">
+        <h3>Microsoft Azure Fundamentals</h3>
+        <p>Certified in core cloud concepts, services, and Azure solutions.</p>
+      </div>
+    </div>
+
+    <div class="cert-card">
+      <img src="certificates/certificate2.png" alt="Cisco Certificate">
+      <div class="cert-info">
+        <h3>Cisco Networking Essentials</h3>
+        <p>Skilled in routing, switching, IP addressing, and network troubleshooting.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- SKILLS AND TECH SECTION-->
+ <section id="skills" class="skills-icons-section">
+  <h2>Skills & Technologies</h2>
+  <div class="skills-icon-grid">
+ <!--  icons container -->
+    <div class="icon-box" title="HTML">
+      <img src="logos/html5.svg" alt="HTML">
+      <span>HTML</span>
+    </div>
+     <div class="icon-box" title="VS Code">
+      <img src="logos/vs code.webp" alt="VS Code">
+      <span>VS Code</span>
+    </div>
+    <div class="icon-box" title="CSS">
+      <img src="logos/css.svg" alt="CSS">
+      <span>CSS</span>
+    </div>
+    <div class="icon-box" title="PHP">
+      <img src="logos/php.svg" alt="PHP">
+      <span>PHP</span>
+    </div>
+    <div class="icon-box" title="MySQL">
+      <img src="logos/mysql.svg" alt="MySQL">
+      <span>MySQL</span>
+    </div>
+    <div class="icon-box" title="GitHub">
+      <img src="logos/github.svg" alt="GitHub">
+      <span>GitHub</span>
+    </div>
+  </div>
+</section>
+  <!--PROJECTS SECTION -->
+  <section class="projects" id="projects">
+    <h2>Projects</h2>
+
+    <div class="project-row">
+      <div class="project-image">
+        <img src="images/pizza website.png" alt="Pizza Order Page" />
+      </div>
+      <div class="project-info">
+        <h3>Pizza Order Page</h3>
+        <p>Responsive Flexbox layout that lets users select and order pizza online with interactive buttons.</p>
+      </div>
+    </div>
+   
+    <div class="project-row reverse">
+      <div class="project-info">
+        <h3>Apple Macintosh</h3>
+        <p>Responsive website inspired by Apple’s classic design. Built using HTML and CSS with Flexbox and Grid to showcase product features in a clean, modern layout.</p>
+      </div>
+      <div class="project-image">
+        <img src="images/Apple wedsite.png" alt="Apple Macintosh" />
+      </div>
+    </div>
+
+ <div class="project-row">
+      <div class="project-image">
+        <img src="images/arduino.jpg" alt="Smart Lock Project" />
+      </div>
+      <div class="project-info">
+        <h3>Smart Lock</h3>
+        <p>Arduino-based lock with servo, IR remote & LCD. Controls access using unique codes and shows messages on display.</p>
+      </div>
+    </div>
+
+    <div class="project-row reverse">
+      <div class="project-info">
+        <h3>CSS Zen Garden</h3>
+        <p>A fully styled page using only CSS featuring layered backgrounds, custom fonts, and elegant hover effects to showcase design flexibility.</p>
+      </div>
+      <div class="project-image">
+        <img src="images/css zeb garden.png" alt="CSS Zen Garden" />
+      </div>
+    </div>
+  </section>
+<!--  CONTACT SECTION  -->
+  <section class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+<!--FOOTER SECTION -->
+  <footer>
+    <p>© 2025 Sukhmanpreet Kaur.</p>
+    <div class="social-links">
+      <a href="https://github.com/" target="_blank">GitHub</a>
+      <a href="http://linkedin.com/in/sukhmanpreet-kaur-771a36343" target="_blank">LinkedIn</a>
+    </div>
+  </footer>
+</body>
+</html>
+
+
